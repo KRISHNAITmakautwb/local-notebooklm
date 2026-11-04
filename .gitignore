@@ -1,0 +1,61 @@
+# Binaries and archives
+surreal
+*.tgz
+*.tar.gz
+*.zip
+*.bin
+
+# Database and state files
+*.db/
+*.db
+mydatabase.db/
+mydatabase.db
+sqlite-db/
+*.sqlite3
+
+# Runtime logs
+*.log
+api-out.log
+api-error.log
+frontend-out.log
+frontend-error.log
+surreal-out.log
+surreal-error.log
+worker-out.log
+worker-error.log
+
+# Node dependencies and build artifacts
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+frontend/.next/
+
+# Python virtualenvs and caches
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+**/*.pyc
+*.egg-info/
+**/*.egg-info/
+
+# Uploads and temporary data
+open-notebook/data/
+**/data/uploads/
+**/data/sqlite-db/
+**/data/tiktoken-cache/
+notebook_data/
+pdf_text.txt
+
+# Environment variables and secrets
+.env
+**/.env
+docker.env
+
+# Backups and local configs
+*.bak
+.git.original/
+.DS_Store
+Thumbs.db
